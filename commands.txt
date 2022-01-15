@@ -1,0 +1,92 @@
+Kubernetes Commands
+
+	1) kubectl version
+Client Version: version.Info{Major:"1", Minor:"23", GitVersion:"v1.23.1", GitCommit:"86ec240af8cbd1b60bcc4c03c20da9b98005b92e", GitTreeState:"clean", BuildDate:"2021-12-16T11:41:01Z", GoVersion:"go1.17.5", Compiler:"gc", Platform:"linux/amd64"}
+Server Version: version.Info{Major:"1", Minor:"23", GitVersion:"v1.23.1", GitCommit:"86ec240af8cbd1b60bcc4c03c20da9b98005b92e", GitTreeState:"clean", BuildDate:"2021-12-16T11:34:54Z", GoVersion:"go1.17.5", Compiler:"gc", Platform:"linux/amd64"}
+
+	2) kubectl version --short
+	Client Version: v1.23.1
+	Server Version: v1.23.1
+	3) Kubectl get nodes 
+	4) Kubectl get pods --all-namespace
+	
+	5) kubeadm token create --print-join-command --ttl=0
+	kubeadm join 10.128.0.7:6443 --token njcgja.uyw4xw9o0uvzjgqa --discovery-token-ca-cert-hash sha256:431a7ae2bcf0242a80e2a2073fdf25687609092cd71d32da3450915784545077 
+	
+	6) kubectl get nodes -o wide
+
+	7) kubectl get pods -n kube-system  -o wide
+	8) service kubelet status
+	9) ps -ef | grep kubelet
+	10) kubectl api-resources
+	
+	NAME                              SHORTNAMES   APIVERSION                             NAMESPACED   KIND
+	bindings                                       v1                                     true         Binding
+	componentstatuses                 cs           v1                                     false        ComponentStatus
+	configmaps                        cm           v1                                     true         ConfigMap
+	endpoints                         ep           v1                                     true         Endpoints
+	events                            ev           v1                                     true         Event
+	limitranges                       limits       v1                                     true         LimitRange
+	namespaces                        ns           v1                                     false        Namespace
+	nodes                             no           v1                                     false        Node
+	persistentvolumeclaims            pvc          v1                                     true         PersistentVolume
+	
+	11) kubectl run test --image nginx
+	12) kubectl get pods -o wide
+	13) Kubcectl describe pod test
+
+
+
+
+13. kubectl exec etcd-master -n kube-system -- sh -c "ETCDCTL_API=3 etcdctl get / --prefix --keys-only --limit=10 --cacert /etc/kubernetes/pki/etcd/ca.crt --cert /etc/kubernetes/pki/etcd/server.crt  --key /etc/kubernetes/pki/etcd/server.key" 
+
+	1) lsns
+	2) Ip netns
+	3) Ip netns add blue
+	4) Ip netns add red
+
+	1) k run test-app-1 --image nginx --dry-run=client -o yaml
+	2) k api-resources
+	3) k explain pod
+	4) k create -f yamls/tomcat.yml
+	5) K apply -f pod.yml --> diff in create and apply
+	6) K delete pod 
+	7) K get pods pod1 -o yaml > new.yml 
+	8) k create -f https://raw.githubusercontent.com/axainfotech/k8s/main/multicontainers.yml
+	9) k get pods -A -o wide | grep -i master
+  
+  
+  
+  
+  
+  
+  
+  ETCD Commands:
+
+or example ETCDCTL version 2 supports the following commands:
+
+1. etcdctl backup
+2. etcdctl cluster-health
+3. etcdctl mk
+4. etcdctl mkdir
+5. etcdctl set
+
+Whereas the commands are different in version 3
+
+6. etcdctl snapshot save 
+7. etcdctl endpoint health
+8. etcdctl get
+9. etcdctl put
+
+To set the right version of API set the environment variable ETCDCTL_API command
+export ETCDCTL_API=3
+
+When API version is not set, it is assumed to be set to version 2. And version 3 commands listed above don't work. When API version is set to version 3, version 2 commands listed above don't work.
+
+Apart from that, you must also specify path to certificate files so that ETCDCTL can authenticate to the ETCD API Server. The certificate files are available in the etcd-master at the following path. We discuss more about certificates in the security section of this course. So don't worry if this looks complex:
+
+10. --cacert /etc/kubernetes/pki/etcd/ca.crt     
+11. --cert /etc/kubernetes/pki/etcd/server.crt     
+12. --key /etc/kubernetes/pki/etcd/server.key
+
+So for the commands I showed in the previous video to work you must specify the ETCDCTL API version and path to certificate files. Below is the final form:
