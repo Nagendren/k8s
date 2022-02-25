@@ -201,3 +201,18 @@
 
 ### K8s Talent May Be Expensive
 > If you want to get up and running with Kubernetes fast, you may not have time to develop in-house Kubernetes expertise. You’ll probably go for established Kubernetes experts. That may pose a problem because the K8s talent is not cheap. For example, according to PayScale, the average salary for the skill “Kubernetes” is $116,000 (June 2019). Budgets of many medium and small enterprises are simply too small to allow hiring established Kubernetes experts at this pay rate.
+
+### Add script to change namespace. Not something that I want to type regularly. First I tried to create a BASH alias or something, which did not work. So I looked around for BASH functions. I found that Jon Whitcraft proposed a nice BASH function in a GitHub issue. I lightly modified this and placed this in my own .bashrc file:
+function kubectlns() {
+  ctx=`kubectl config current-context`
+  ns=$1
+
+  # verify that the namespace exists
+  ns=`kubectl get namespace $1 --no-headers --output=go-template={{.metadata.name}} 2>/dev/null`
+  if [ -z "${ns}" ]; then
+    echo "Namespace (${1}) not found, using default"
+    ns="default"
+  fi
+
+  kubectl config set-context ${ctx} --namespace="${ns}"
+}
