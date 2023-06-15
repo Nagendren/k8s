@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T14:04:47.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_EPXeY8g2y5GDIEwgsWt" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T14:25:54.142Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BEYp-SgYl4nNLbdZ3MYi" version="21.4.0" type="github">
   <diagram name="Page-1" id="gUVZ8LX1hJLVxF3I66h_">
     <mxGraphModel dx="794" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,25 +17,25 @@
           <mxGeometry x="110" y="280" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-2" value="" style="image;html=1;image=img/lib/clip_art/computers/Harddrive_128x128.png;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="320" y="120" width="80" height="80" as="geometry" />
+          <mxGeometry x="320" y="160" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-3" value="" style="image;html=1;image=img/lib/clip_art/computers/Harddrive_128x128.png;direction=east;" vertex="1" parent="1">
           <mxGeometry x="320" y="280" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-6" value="ActivID Appliance DC6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="120" width="110" height="30" as="geometry" />
+          <mxGeometry x="400" y="160" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-7" value="ActivID Appliance DC4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="350" width="110" height="30" as="geometry" />
+          <mxGeometry x="400" y="280" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-8" value="" style="image;html=1;image=img/lib/clip_art/computers/Harddrive_128x128.png;direction=east;" vertex="1" parent="1">
           <mxGeometry x="320" y="400" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-10" value="ActivID Appliance DC6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="460" width="110" height="30" as="geometry" />
+          <mxGeometry x="400" y="400" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xE7ggN1GZdMgOr9-JFcF-12" value="Fortiweb&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="240" width="110" height="30" as="geometry" />
+        <mxCell id="xE7ggN1GZdMgOr9-JFcF-12" value="FortiWeb 1000E&lt;br&gt;Firewall &amp;amp; Load Balancer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
