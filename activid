@@ -1,13 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T14:52:28.162Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="24UpNwqbaW17frwv9_gp" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T14:58:22.829Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ZMbOiv5vv2QJI9z6Gl79" version="21.4.0" type="github">
   <diagram name="Page-1" id="gUVZ8LX1hJLVxF3I66h_">
     <mxGraphModel dx="934" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xE7ggN1GZdMgOr9-JFcF-1" target="xE7ggN1GZdMgOr9-JFcF-3">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="255" />
+              <mxPoint x="260" y="400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="xE7ggN1GZdMgOr9-JFcF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xE7ggN1GZdMgOr9-JFcF-1" target="xE7ggN1GZdMgOr9-JFcF-8">
+        <mxCell id="xE7ggN1GZdMgOr9-JFcF-9" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="xE7ggN1GZdMgOr9-JFcF-1" target="xE7ggN1GZdMgOr9-JFcF-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xE7ggN1GZdMgOr9-JFcF-1" target="xE7ggN1GZdMgOr9-JFcF-2">
@@ -16,23 +21,31 @@
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-1" value="" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" vertex="1" parent="1">
           <mxGeometry x="120" y="215" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="xE7ggN1GZdMgOr9-JFcF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xE7ggN1GZdMgOr9-JFcF-2" target="xE7ggN1GZdMgOr9-JFcF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-2" value="" style="image;html=1;image=img/lib/clip_art/computers/Harddrive_128x128.png;direction=east;" vertex="1" parent="1">
           <mxGeometry x="320" y="160" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="xE7ggN1GZdMgOr9-JFcF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xE7ggN1GZdMgOr9-JFcF-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="359.9999999999998" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-3" value="" style="image;html=1;image=img/lib/clip_art/computers/Harddrive_128x128.png;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="320" y="280" width="80" height="80" as="geometry" />
+          <mxGeometry x="320" y="360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xE7ggN1GZdMgOr9-JFcF-6" value="ActivID Appliance DC6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="160" width="110" height="30" as="geometry" />
+        <mxCell id="xE7ggN1GZdMgOr9-JFcF-6" value="ActivID Appliance&lt;br&gt;Node1&lt;br&gt;&amp;nbsp;DC6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="150" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xE7ggN1GZdMgOr9-JFcF-7" value="ActivID Appliance DC4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="280" width="110" height="30" as="geometry" />
+        <mxCell id="xE7ggN1GZdMgOr9-JFcF-7" value="ActivID Appliance Node 2&lt;br&gt;DC4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="440" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-8" value="" style="image;html=1;image=img/lib/clip_art/computers/Harddrive_128x128.png;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="320" y="400" width="80" height="80" as="geometry" />
+          <mxGeometry x="320" y="520" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xE7ggN1GZdMgOr9-JFcF-10" value="ActivID Appliance DC6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="400" width="110" height="30" as="geometry" />
+        <mxCell id="xE7ggN1GZdMgOr9-JFcF-10" value="ActivID Appliance Node3 &lt;br&gt;DC6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="570" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-12" value="FortiWeb 1000E&lt;br&gt;Firewall &amp;amp; Load Balancer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="170" width="140" height="30" as="geometry" />
