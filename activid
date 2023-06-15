@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T15:01:19.819Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KmWWsK5CsfPjjjrMV86L" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T15:05:57.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tKWGCGGj0Jc9EzgrSniI" version="21.4.0" type="github">
   <diagram name="Page-1" id="gUVZ8LX1hJLVxF3I66h_">
     <mxGraphModel dx="934" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,6 +24,9 @@
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xE7ggN1GZdMgOr9-JFcF-2" target="xE7ggN1GZdMgOr9-JFcF-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="xE7ggN1GZdMgOr9-JFcF-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xE7ggN1GZdMgOr9-JFcF-2" target="xE7ggN1GZdMgOr9-JFcF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-2" value="" style="image;html=1;image=img/lib/clip_art/computers/Harddrive_128x128.png;direction=east;" vertex="1" parent="1">
           <mxGeometry x="320" y="160" width="80" height="80" as="geometry" />
         </mxCell>
@@ -32,14 +35,19 @@
             <mxPoint x="359.9999999999998" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="xE7ggN1GZdMgOr9-JFcF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xE7ggN1GZdMgOr9-JFcF-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.9999999999998" y="399.9411764705883" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-3" value="" style="image;html=1;image=img/lib/clip_art/computers/Harddrive_128x128.png;direction=east;" vertex="1" parent="1">
           <mxGeometry x="320" y="360" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-6" value="ActivID Appliance&lt;br&gt;Node1&lt;br&gt;&amp;nbsp;DC6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="150" width="110" height="40" as="geometry" />
+          <mxGeometry x="320" y="120" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-7" value="ActivID Appliance Node 2&lt;br&gt;DC4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="414" y="440" width="110" height="40" as="geometry" />
+          <mxGeometry x="320" y="440" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-8" value="" style="image;html=1;image=img/lib/clip_art/computers/Harddrive_128x128.png;direction=east;" vertex="1" parent="1">
           <mxGeometry x="320" y="520" width="80" height="80" as="geometry" />
@@ -52,6 +60,25 @@
         </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-19" value="asynchronous&amp;nbsp; replication&lt;br&gt;&amp;nbsp; &amp;nbsp; eventually&amp;nbsp; &amp;nbsp;consistent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="270" y="270" width="166" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="xE7ggN1GZdMgOr9-JFcF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xE7ggN1GZdMgOr9-JFcF-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="542" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xE7ggN1GZdMgOr9-JFcF-20" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;" vertex="1" parent="1">
+          <mxGeometry x="524" y="175.45" width="36" height="49.1" as="geometry" />
+        </mxCell>
+        <mxCell id="xE7ggN1GZdMgOr9-JFcF-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xE7ggN1GZdMgOr9-JFcF-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="542" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xE7ggN1GZdMgOr9-JFcF-21" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;" vertex="1" parent="1">
+          <mxGeometry x="524" y="375.45" width="36" height="49.1" as="geometry" />
+        </mxCell>
+        <mxCell id="xE7ggN1GZdMgOr9-JFcF-28" value="Oracle Golden Gate (GG) replication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="472" y="280" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
