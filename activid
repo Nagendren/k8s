@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T09:37:06.929Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6_e8Zbkgf4LoKV5OElQf" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T09:37:47.176Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4k3htTcKuOPBsiK1jDja" version="21.4.0" type="github">
   <diagram name="Page-1" id="gUVZ8LX1hJLVxF3I66h_">
-    <mxGraphModel dx="1861" dy="1639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2895" dy="2109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -164,13 +164,13 @@
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-53" value="&lt;b&gt;DC6 - Active&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="90" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xE7ggN1GZdMgOr9-JFcF-57" value="Remote File System (RFS)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="xE7ggN1GZdMgOr9-JFcF-57" value="&lt;b&gt;Remote File System (RFS)&lt;br&gt;version -&amp;nbsp;12.50.4&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1783" y="96" width="120" height="61.5" as="geometry" />
         </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-61" value="&lt;b&gt;SDI -&amp;nbsp; AWS Cloud&lt;br&gt;N.Virginia&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1607" y="12.5" width="113" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xE7ggN1GZdMgOr9-JFcF-63" value="OCI SFTP - Backup Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="xE7ggN1GZdMgOr9-JFcF-63" value="&lt;b&gt;OCI SFTP - Backup Server&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1763" y="682.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xE7ggN1GZdMgOr9-JFcF-67" value="&lt;b&gt;DC4 -Passive&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
